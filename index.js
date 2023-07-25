@@ -29,7 +29,7 @@ const Square = () => {
 const RandomColor = () => {
   const colors = [`red`, `blue`, `green`, `yellow`, `pink`]
 
-  return (colors[Math.floor(Math.random()) * colors.length])
+  return (colors[Math.floor(Math.random() * colors.length)])
 }
 
 const root = ReactDOM.createRoot(container);
